@@ -1,0 +1,20 @@
+.flex {
+  display: flex;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(200, 100%, 80%);
+  border: 3px solid hsl(200, 100%, 50%);
+}
+.flex {
+}
+
+.box:nth-child(2) {
+  flex-basis: 50px;
+}
